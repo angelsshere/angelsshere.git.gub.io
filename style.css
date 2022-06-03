@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+*{
+  font-family: Verdana, 'Arial Black',メイリオ, sans-serif;
+}
+
+h1{
+  font-size: 36px;
+}
+
+p{
+  margin:15px ;
+}
+
+footer{
+  margin: 15px;
+}
+
+img{
+  border-radius: 50%;
+}
+body{
+  text-align: center;
+}
+section{
+  /* サイトデザインでは8の倍数がきれいになるといわれている */
+  padding: 16px;
+  border: 1px solid gray;
+  margin: 15px;
+  border-radius: 8px;
+  background: url(/img/background.png);
+}
